@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.topbar{
+    background: linear-gradient(to right,yellow,blue);
+    width: 100%;
+    height: 40px;
+}
+
+.header{
+    background: black;
+    width: 100%;
+    height: 110px;
+}
+.menu{
+    background: blue;
+    /* background-color: blue; */
+    width: 100%;
+    height: 50px;
+}
+
+.menu ul li{
+    display: inline-block;
+    text-align: center;
+    font-weight: bold;
+    line-height: 50px;
+    font-size: 21px;
+    font-family: 'Rubik Iso', cursive;
+    margin: 0px 18px;
+
+}
+
+.menu ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+.menu ul li:hover{
+    background-color: yellow;
+    transition: 0.5s;
+    
+}

@@ -1,0 +1,46 @@
+ footer{
+      padding: 40px 120px;
+      background-color: #f4f4fd;
+ }
+
+ .first{
+    display: flex;
+    justify-content: space-between;
+ }
+
+ .first-1{
+    display: flex;
+ }
+
+ .first-1 span{
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+     margin-right: 20px;
+    font-weight: 400;
+     
+}
+.second{
+   display: flex;
+   width: 1209px;
+}
+.second div{
+   width: 227px;
+   height: 239px;
+   margin-right: 92px;
+}
+
+.second a{
+   display: inline-block;
+   width: 193px;
+   text-decoration: none;
+   padding: 4px
+
+   /* list-style-type: none; */
+}
+.second h4{
+   padding-left: 40px;
+}
+ul{
+   list-style-type: none;
+}

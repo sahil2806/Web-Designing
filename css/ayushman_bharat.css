@@ -1,0 +1,525 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+/* nav 1 start */
+
+.nav1{
+    
+    background-color: #410088;
+    width: 100%;
+    height: 35px;
+    display: flex;
+    justify-content:space-between;
+    
+}
+.nav1_a{
+    padding: 4px 0px 0px 198px;
+    font-size: 17px;
+    color: white;
+}
+.nav1_a li{
+    margin: 4px;
+}
+.nav1_b{
+    padding: 4px 255px 0px 0px;
+    font-size: 17px;
+    color: white;
+}
+.nav1_b li{
+    margin: 4px;
+    border: 1px solid #f5b31c;
+    padding: 1px;
+}
+.nav1_b li:hover{
+    background-color: #f5b31c;
+    transform: 1s;
+     
+}
+.nav1_b a{
+    color: white;
+}
+.nav1 li{
+    display: inline-block;
+}
+
+
+/* nav 1 end */
+
+
+/* nav 2 start */
+
+.nav2{
+    background-color: #9239a1;
+    width: 100%;
+    height: 107px;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+}
+.nav2_a{
+    display: flex;
+    font-size: 36px;
+    margin-top: 5px;
+}
+.nav2_b{
+    margin-top: 11px;
+    margin-left: -199px;
+}
+.nav2_a_b{
+     margin-left: 33px;
+}
+.nav2_b img{  
+    height: 85px;
+    width: 83px;
+}
+.span1{
+    color: #ffd957;
+}
+
+/* nav 2 end */
+
+
+/* nav 3 start */
+
+.nav3{
+    background-color:#f2b419;
+    width: 100%;
+    height: 53px;
+    font-size: 20px;
+    padding: 0px 0px 0px 164px;
+     
+}
+.nav3 li{
+    list-style: none;
+    display: inline-block;
+    margin: 13px;
+     
+}
+.nav3 li a{
+    color: white;
+}
+.nav3 li a:hover{
+    color: blue;
+    text-decoration: underline;
+}
+.nav3 li a{
+    text-decoration: none;
+}
+/* nav 3 end */
+
+/* middle star */
+
+.middle1{
+   width: 100%;
+   height: 457px;
+    
+}
+.middle_a{
+    width: 100%;
+    height: 337px;
+  background: url(../image/ayushman_banner.jpg);
+  background-position: center;
+  background-size: cover;
+
+  
+}
+.middle_b{
+    width: 100%;
+    height: 57px;
+    background:#514593 url('http://ayushmanup.in/assets/images/city_background.png')  no-repeat top right;
+}
+.middle_b marquee{
+    color: white;
+    font-size: 22px;
+    margin: 11px 150px 0px 150px;
+}
+
+
+/* middle 2 start */
+
+.middle2{
+    width: 100%;
+    height: 280px;
+    background-color: white;
+    color: white;
+    padding-top: 47px;
+}
+.middle2 table img{
+    width: 85px;
+    height: 84px;
+}
+.middle2 table tr td{
+    border-radius: 10px;
+    border: 2px solid #c2d9de;
+    width: 377px;
+    height: 30px;
+    
+}
+table{
+    border-collapse: collapse;
+    background-color: #f3f8f9;
+     
+    
+}
+.td1{
+    display: flex;
+
+}
+.td1_a{
+    padding: 13px 0px 0px 57px;
+}
+.td1_a .a{
+   color: #ff4500;
+
+}
+.td1_a .b{
+    color: black;
+    font-size: 10px;
+    margin-top: 10px;
+}
+
+/* middle 2 end */
+
+/* middle 3 start */
+
+.middle_3{
+    background: yellow;
+    height: 600px;
+    display: flex;
+    margin: 71px;
+}
+.middle_3 img{
+    width: 129px;
+    height: 123px;
+}
+.middle_3_a{
+    width: 50%;
+    background: white;
+    font-size: 28px;
+    text-align: justify;
+    padding: 22px 77px 0px 78px;
+    
+}
+.middle_3_a h6{
+    color: #684090;
+}
+.middle_3_a h5{
+    color: black;
+}
+.middle_3_a p{
+    font-family: 'Heebo', sans-serif;
+    font-size: 22px;
+    color: rgb(55, 53, 53);
+}
+.middle_3_a button{
+    width: 138px;
+    height: 42px;
+    font-size: 21px;
+    background: #4d4090;
+    color: white;
+}
+.middle_3_a button:hover{
+    background-color: #f2b419;
+    border: none;
+    transition: 1s;
+     
+}
+.middle_3_b{
+    background: #ffffff;
+    text-align: center;
+    color: #684090;
+    
+
+}
+.middle_3_b_a{
+     margin: 25px;
+     background-color: #f3f4ff;
+
+}
+.middle_3_b_b{
+    margin: 25px;
+    background-color: #f3f4ff;
+} 
+.middle_3_b_c{
+    margin: 25px;
+    display: flex;
+
+}
+.middle_3_b_c_a{
+    margin: 25px;
+    display: flex;
+    background-color: #f3f4ff;
+}
+.middle_3_b_c_b{
+    margin: 25px;
+    display: flex;
+    background-color: #f3f4ff;
+}
+
+/* middle 3 end */
+
+/* middle 4 start */
+
+.middle_4{
+    height: 500px;
+    background-color: white;
+    margin: 0px 124px 52px 124px;
+    display: flex;
+}
+.middle_4_a{
+    position: relative;
+    background-color: #f5f5dc;
+    height: 319px;
+    width: 30%;
+    margin: 25px;
+    border-bottom: 3px solid #2d4a79;
+}
+.middle_4_a .special1{
+    background-color: #4682b4;
+    width: 100%;
+    height: 60px;
+    border-radius: 23px 23px 0px 0px;
+    position: absolute;
+    top: -61px;
+}
+.middle_4_a .special1 marquee{
+    padding-top: 17px;
+    font-size: 22px;
+    margin: 0px 35px 0px 35px;
+     
+}
+.middle_4_a .special2 marquee{
+    padding: 1px 25px 0px 25px;
+}
+
+.special2{
+
+}
+
+.middle_4_b{
+    position: relative;
+    background-color: #f5f5dc;
+    height: 319px;
+    width: 30%;
+    margin: 25px;
+    border-bottom: 3px solid #2d4a79;
+}
+.middle_4_b .special1{
+    background-color: #4682b4;
+    width: 100%;
+    height: 60px;
+    border-radius: 23px 23px 0px 0px;
+    position: absolute;
+    top: -61px;
+}
+.middle_4_b .special1 marquee{
+    padding-top: 17px;
+    font-size: 22px;
+    margin: 0px 35px 0px 35px;
+}
+.middle_4_b .special2 marquee{
+    padding: 1px 25px 0px 25px;
+}
+.middle_4_c{
+    position: relative;
+    background-color: #f5f5dc;
+    height: 319px;
+    width: 30%;
+    margin: 25px;
+    border-bottom: 3px solid #2d4a79;
+}
+.middle_4_c .special1{
+    background-color: #4682b4;
+    width: 100%;
+    height: 60px;
+    border-radius: 23px 23px 0px 0px;
+    position: absolute;
+    top: -61px;
+}
+.middle_4_c .special1 marquee{
+    padding-top: 17px;
+    font-size: 22px;
+    margin: 0px 35px 0px 35px;
+}
+
+.middle_4_c .special2 marquee{
+    padding: 1px 25px 0px 25px;
+}
+/* middle 5 , 6 start */
+
+.middle_5{
+    width: 100%;
+    height: 213px;
+    margin-top: -70px;
+    background: #2d4a79 url(http://ayushmanup.in/assets/images/city_background.png) no-repeat top right;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.middle_5 img{
+    width: 134px;
+    height: 196px;
+}
+.middle_5_a{
+    
+    display: flex;
+}
+.middle_5_a h1{
+    padding: 80px 0px 0px 50px;
+    font-size: 43px;
+    color: white;
+}
+.middle_5_b{
+    
+    padding: 80px 0px 0px 0px ;
+}
+.middle_5_b button{
+    width: 135px;
+    height: 46px;
+    background: #eeb712;
+    font-size: 18px;
+    color: white;
+}
+.middle_5_b button:hover{
+    width: 135px;
+    height: 46px;
+    background: blueviolet;
+    font-size: 18px;
+    color: white;
+}
+.middle_6{
+    width: 100%;
+    height: 300px;
+}
+.middle_6_a{
+     
+    display: flex;
+    padding: 80px 206px 0px 151px
+}
+.middle_6 h1{
+    padding: 60px 0px 0px 177px;
+    font-size: 37px;
+}
+.middle_6 h1 span{
+    text-decoration: underline;
+    text-decoration-color: #eeb712;
+    
+}
+.middle_6_b{
+    margin: 19px;
+}
+.middle_6_c{
+    width: 90%;
+    margin-left: 94px;
+    word-spacing: 15px;
+    line-height: 25px;
+    font-family: 'Lato', sans-serif; 
+    text-align: justify;  
+    background: #e9e4e4;
+}
+
+
+/* middle 7,8  start */
+
+.middle_7{
+    width: 100%;
+    height: 320px;
+    margin-top: 88px;
+    background-color: #f3f4ff;
+    display: flex;
+    padding-left: 148px;
+}
+.middle_7_b{
+    margin-top: 75px;
+    font-size: 20px;
+
+}
+.middle_7 .middle_7_a iframe{
+   width: 318px;
+    height: 208px;
+    margin-top: 56px;
+    margin-left: 93px;
+    margin-right: 25px;
+}
+.middle_7 .middle_7_a img{
+    width: 318px;
+    height: 208px;
+    margin-top: 56px;
+    margin-right: 23px;
+}
+.middle_7 .middle_7_a img{
+    width: 318px;
+    height: 208px;
+    margin-top: 56px;
+}
+.middle_8{
+    width: 318px;
+    height: 88px;
+    margin-top: 56px;
+    display: flex;
+    padding: 0px 0px 0px 82px;
+}
+.middle_8 img{
+    width: 237px;
+    height: 52px;
+}
+
+/* middle 9 start */
+.middle_9{
+    width: 100%;
+    height: 418px;
+    background: rgb(50, 54, 58);
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    padding-top: 20px;
+}
+
+ 
+
+.middle_9_a h1{
+    margin: 0px 0px 50px 0px;
+}
+
+.middle_9_b{
+   display: flex;
+}
+
+.middle_9_b_a {
+    margin: 113px 0px 0px -204px;
+    font-size: 18px;
+}
+
+.middle_9_b a{
+    color: white;
+    text-decoration: none;
+}
+
+.middle_9_b a:hover{
+    color:#eeac1e;
+    float: left;
+}
+
+.middle_9_b_b{
+    margin: 112px 0px 0px 99px;
+    font-size: 18px;
+}
+
+.middle_9_b h1{
+    margin: 0px 0px 50px 0px;
+}
+
+.middle_9_c {
+    font-size: 18px;
+    color: #eeac1e;
+}
+
+.middle_9_c h1{
+    margin: 0px 0px 50px 0px;
+    color: white;
+}
+
+/* middle 9 end */

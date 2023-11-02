@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attractive Feedback Form</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color:#F6F1F1;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            background: linear-gradient(to bottom, #19A7CE, #AFD3E2);
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+            margin-top: 119px;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        label {
+            font-weight: bold;
+            color: #fff;
+        }
+
+        input[type="text"],
+        textarea {
+            width: 96%;
+            padding: 10px;
+            border: none;
+            border-radius: 3px;
+            outline: none;
+            background-color: rgba(255, 255, 255, 0.8);
+            color: #333;
+            transition: background-color 0.3s;
+        }
+
+        input[type="text"]:focus,
+        textarea:focus {
+            background-color: #fff;
+        }
+
+        textarea {
+            resize: vertical;
+        }
+        
+        .btn-submit {
+            background: linear-gradient(to bottom,  #19A7CE, #146C94);
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+
+        .btn-submit:hover {
+            background: linear-gradient(to bottom,  #19A7CE, #146C94);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2 style="color: #fff;">Feedback Form</h2>
+        <form action="#" method="post">
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="text" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+            </div>
+            <button type="submit" class="btn-submit">Submit Feedback</button>
+        </form>
+    </div>
+</body>
+</html>

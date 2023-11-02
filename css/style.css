@@ -1,0 +1,177 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    background-color: white;
+    width: 100%;
+    height: 75px;
+     display: flex;
+    justify-content: space-around;
+    padding-top: 23px;
+}
+nav .menu{
+     font-size: 25px;
+ 
+     
+}
+.menu a{
+     
+    margin: 12px;
+    text-decoration: none;
+    color:#c64377;
+}
+
+.banner{
+    background-image: url(../image/banner.jpg);
+    width: 100%;
+    height: 1000px;
+    background-position: center;
+    background-size: cover;
+}
+ 
+ .banner h1{
+   
+    text-align: center;
+    background-color:#ffffff87;
+    margin: auto;
+    width: 671px;
+    position: relative;
+    top: 350px;
+    font-size: 37px;
+    color:brown;
+
+}
+.strip{
+    width: 100%;
+    height: 86px;
+    display: flex;
+    justify-content: space-around;
+    background-color: #ded4d48c;
+    padding-top: 17px;
+    margin-top: -180px;
+
+}
+
+.chose{
+    font-size: 17px;
+    padding-top: 16px;
+}
+
+.flag img{
+    margin: 3px;
+}
+
+
+.flag img{
+
+    height: 51px;
+    width: 93px;
+
+}
+
+.content{
+    height: 50px;
+    width: 69%;
+    text-align: center;
+    margin: 200px;
+}
+
+.content h1{
+    margin: 55px;
+    color: rgb(225, 4, 41);
+}
+
+.content p{
+    line-height: 28px;
+    word-spacing: 1px;
+    font-family: "Goudy Bookletter 1911", sans-serif;
+    text-align: center;
+}
+.content button{
+   margin: 49px;
+   width: 234px;
+   height: 45px;
+   background-color: rgb(225, 4, 41);
+   color: white;
+   border: none;
+   border-radius:10px ;
+    
+}
+
+
+footer{
+    background-color: black;
+    width: 100%;
+    height: 400px;
+    margin-top: 294px;
+    color: white;
+}
+
+.f_logo{
+    padding-top: 66px;
+    padding-left: 275px;
+}
+ 
+.A{
+    display: flex;
+    justify-content: space-around;
+     
+}
+.a{
+    display: flex;
+    justify-content: space-around;
+     
+}
+.a .p{
+    padding: 30px;
+}
+.a .q{
+    padding: 30px;
+}
+
+
+.p ol{
+    list-style-type: none;
+}
+
+.q ol{
+    list-style: none;
+}
+
+.p ol a{
+    text-decoration: none;
+    color: white;
+}
+
+.q ol a{
+ text-decoration: none;
+ color: white;
+}
+
+.b img{
+    height: 37px;
+    width: 40px;
+}
+
+.below{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 88px;
+}
+
+.below a{
+    text-decoration: none;
+    color: white;
+}
+
+.check {
+    /*display: inline-block;
+    */transition: transform 0.5s ease;
+    
+}
+
+.check:hover {
+    transform: scale(1.2); /* Change the scale factor as needed */
+}
